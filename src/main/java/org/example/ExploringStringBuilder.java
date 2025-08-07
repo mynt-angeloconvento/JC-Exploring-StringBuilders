@@ -29,9 +29,18 @@ public class ExploringStringBuilder {
         // sb.replace(24, 30, "Java");
         // System.out.println(sb);
 
-        // Prediction: "Ready, Set, rt..."
-        StringBuilder sb = new StringBuilder("Start");
-        sb.append("...").insert(0, "Ready, Set, ").delete(12, 15);
-        System.out.println(sb);
+        // // Prediction: "Ready, Set, rt..."
+        // StringBuilder sb = new StringBuilder("Start");
+        // sb.append("...").insert(0, "Ready, Set, ").delete(12, 15);
+        // System.out.println(sb);
+
+        // Prediction: fox, 16, -1
+        StringBuilder sb = new StringBuilder("The quick brown fox jumps over the lazy dog.");
+        String sub = sb.substring(16, 19);
+        System.out.println("Substring: " + sub);
+        int indexOfFox = sb.indexOf("fox");
+        System.out.println("Index of 'fox': " + indexOfFox);
+        int indexOfCat = sb.indexOf("cat");
+        System.out.println("Index of 'cat': " + indexOfCat);
     }
 }
