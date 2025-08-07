@@ -7,5 +7,11 @@ public class ExploringStringBuilder {
         StringBuilder sb = new StringBuilder("Hello");
         sb.append(", Cadets!");
         System.out.println(sb);
+        sb.append(" Welcome to");
+        sb.append(" 2025");
+        sb.append(".");
+        System.out.println(sb);
+
+        
     }
 }
