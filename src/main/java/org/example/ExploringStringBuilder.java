@@ -44,12 +44,12 @@ public class ExploringStringBuilder {
         // int indexOfCat = sb.indexOf("cat");
         // System.out.println("Index of 'cat': " + indexOfCat);
 
-        // Prediction: "Status: Pending - Approved" and "Status: Pending"
-        StringBuilder sb = new StringBuilder("Status: ");
-        sb.append("Pending");
-        String finalStatus = sb.toString();
-        sb.append(" - Approved");
-        System.out.println("StringBuilder: " + sb);
-        System.out.println("Final String: " + finalStatus);
+        // // Prediction: "Status: Pending - Approved" and "Status: Pending"
+        // StringBuilder sb = new StringBuilder("Status: ");
+        // sb.append("Pending");
+        // String finalStatus = sb.toString();
+        // sb.append(" - Approved");
+        // System.out.println("StringBuilder: " + sb);
+        // System.out.println("Final String: " + finalStatus);
     }
 }
