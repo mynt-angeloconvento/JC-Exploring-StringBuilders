@@ -12,3 +12,7 @@
 #### Exercise 2
 
 ![alt text](image-2.png)
+
+#### Exercise 3
+
+![alt text](image-3.png)
