@@ -17,11 +17,16 @@ public class ExploringStringBuilder {
         // sb.insert(8, "really ");
         // System.out.println(sb);
 
-        // Prediction: "This is entence." and "Thisis entence."
-        StringBuilder sb = new StringBuilder("This is a test sentence.");
-        sb.delete(8, 16); 
-        System.out.println("After delete(8, 16): " + sb);
-        sb.deleteCharAt(4);
-        System.out.println("After deleteCharAt(4): " + sb);
+        // // Prediction: "This is entence." and "Thisis entence."
+        // StringBuilder sb = new StringBuilder("This is a test sentence.");
+        // sb.delete(8, 16);
+        // System.out.println("After delete(8, 16): " + sb);
+        // sb.deleteCharAt(4);
+        // System.out.println("After deleteCharAt(4): " + sb);
+
+        // Prediction: "I like programming in PyJava"
+        StringBuilder sb = new StringBuilder("I like programming in Python.");
+        sb.replace(24, 30, "Java");
+        System.out.println(sb);
     }
 }
