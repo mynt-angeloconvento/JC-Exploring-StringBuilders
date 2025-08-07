@@ -24,9 +24,14 @@ public class ExploringStringBuilder {
         // sb.deleteCharAt(4);
         // System.out.println("After deleteCharAt(4): " + sb);
 
-        // Prediction: "I like programming in PyJava"
-        StringBuilder sb = new StringBuilder("I like programming in Python.");
-        sb.replace(24, 30, "Java");
+        // // Prediction: "I like programming in PyJava"
+        // StringBuilder sb = new StringBuilder("I like programming in Python.");
+        // sb.replace(24, 30, "Java");
+        // System.out.println(sb);
+
+        // Prediction: "Ready, Set, rt..."
+        StringBuilder sb = new StringBuilder("Start");
+        sb.append("...").insert(0, "Ready, Set, ").delete(12, 15);
         System.out.println(sb);
     }
 }
